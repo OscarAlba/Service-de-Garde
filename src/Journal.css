@@ -1,0 +1,62 @@
+.moon {
+    width: 80px;
+    height: 85px;
+}
+
+.casilla {
+    display: flex;
+    flex-direction: column;
+}
+
+.casilla_checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox_imagen {
+
+    display: flex;
+    flex-direction: row;
+    font-size: var(--sm);
+    padding: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.margin-top-15px {
+    margin-top: 15px;
+}
+
+.Journal {
+    padding: 11px 33px;
+}
+
+.Journal label {
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.Journal textarea {
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Journal input {
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 640px) {
+    .Journal {
+        margin: 5%;
+        padding: 0;
+    }
+}

@@ -1,0 +1,28 @@
+.margin-left{
+    margin-left:auto;
+}
+
+.logo{
+    height: 200px;
+    margin-left: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nom {
+    width: 81px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+
+@media (max-width: 640px) {
+    .logo {
+        height: 120px;
+        margin-left: 21%;
+    }
+  }

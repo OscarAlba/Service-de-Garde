@@ -47,16 +47,17 @@ function Journal() {
             </div>
             <div className="casilla_checkbox">
                 <label>Humeur:</label>
-                <input type="text"  placeholder=" Ecri"/>
+                <input className="ecri_text" type="text" placeholder=" Ecri" />
             </div>
-           
             <div className="checkbox_imagen">
                 <ImageChange original={sadImg} selected={sadImgSel} id="sad" />
                 <ImageChange original={masoImg} selected={masoImgSel} id="maso" />
                 <ImageChange original={happyImg} selected={happyImgSel} id="happy" />
             </div>
-
-            <label>Sieste:</label>
+            <div className="casilla_checkbox">
+                <label>Sieste:</label>
+                <input className="ecri_text" type="text" placeholder=" Ecri" />
+            </div>
             <div className="checkbox_imagen">
                 <ImageChange className="moon"
                     original={awakeImg} selected={awakeImgSel} id="awake" />

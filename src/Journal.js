@@ -45,7 +45,7 @@ function Journal() {
                     placeholder="Dîner"></textarea>
 
             </div>
-            <label >Humeur:</label>
+            <label>Humeur:</label>
             <div className="checkbox_imagen">
                 <ImageChange original={sadImg} selected={sadImgSel} id="sad" />
                 <ImageChange original={masoImg} selected={masoImgSel} id="maso" />
@@ -71,114 +71,5 @@ function Journal() {
 
     );
 }
-/** 
- * <ImageChange original={awakeImg} selected={sadImgSel} />
-                <ImageChange original={medAwakeImg} selected={masoImgSel} />
-                <ImageChange original={sleepImg} selected={happyImgSel} />
-//Imgs
-happy.addEventListener("click", function () {
-
-    if (imgsSelected.maso) {
-        maso.click();
-    } else if (imgsSelected.sad) {
-        sad.click();
-    }
-
-    if (imgsSelected.happy) {
-        happy.setAttribute("src", "./img/happy.png");
-        imgsSelected.happy = false;
-    } else {
-        happy.setAttribute("src", "./img/happy-select.png");
-        imgsSelected.happy = true;
-    }
-});
-
-maso.addEventListener("click", function () {
-    if (imgsSelected.happy) {
-        happy.click();
-    } else if (imgsSelected.sad) {
-        sad.click();
-    }
-
-    if (imgsSelected.maso) {
-        maso.setAttribute("src", "./img/maso.png");
-        imgsSelected.maso = false;
-    } else {
-        maso.setAttribute("src", "./img/maso-select.png");
-        imgsSelected.maso = true;
-    }
-});
-
-sad.addEventListener("click", function () {
-
-    if (imgsSelected.happy) {
-        happy.click();
-    } else if (imgsSelected.maso) {
-        maso.click();
-    }
-
-    if (imgsSelected.sad) {
-        sad.setAttribute("src", "./img/sad.png");
-        imgsSelected.sad = false;
-    } else {
-        sad.setAttribute("src", "./img/sad-select.png");
-        imgsSelected.sad = true;
-    }
-});
-
-
-//Imgs Moons
-sleep.addEventListener("click", function () {
-
-    if (moonSelected.med) {
-        medSleep.click();
-    } else if (moonSelected.awake) {
-        awake.click();
-    }
-
-    if (moonSelected.sleep) {
-        sleep.setAttribute("src", "./img/sleepy-moon.png");
-        moonSelected.sleep = false;
-    } else {
-        sleep.setAttribute("src", "./img/sleepy.png");
-        moonSelected.sleep = true;
-    }
-});
-
-medSleep.addEventListener("click", function () {
-    if (moonSelected.sleep) {
-        sleep.click();
-    } else if (moonSelected.awake) {
-        awake.click();
-    }
-
-    if (moonSelected.med) {
-        medSleep.setAttribute("src", "./img/med-moon.png");
-        moonSelected.med = false;
-    } else {
-        medSleep.setAttribute("src", "./img/med.png");
-        moonSelected.med = true;
-    }
-});
-
-awake.addEventListener("click", function () {
-
-    if (moonSelected.sleep) {
-        sleep.click();
-    } else if (moonSelected.med) {
-        medSleep.click();
-    }
-
-    if (moonSelected.awake) {
-        awake.setAttribute("src", "./img/nosleep.png");
-        moonSelected.awake = false;
-    } else {
-        awake.setAttribute("src", "./img/nosleep-moon.png");
-        moonSelected.awake = true;
-    }
-});
-**/
-
-
 
 export { Journal };

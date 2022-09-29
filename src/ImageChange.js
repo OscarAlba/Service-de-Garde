@@ -5,7 +5,6 @@ function ImageChange(original) {
   const imagesPath = {
     original: original.original,
     selected: original.selected
-
   }
 
   let imageName = 'original';

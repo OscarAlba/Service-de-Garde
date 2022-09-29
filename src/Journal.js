@@ -1,5 +1,6 @@
 import { React } from "react";
-//------------- Emotions ------------------//
+import { ImageChange } from "./ImageChange";
+
 import sadImg from './imgs/sad.png';
 import masoImg from './imgs/maso.png';
 import happyImg from './imgs/happy.png';
@@ -17,18 +18,6 @@ import medAwakeImgSel from './imgs/med.png';
 import sleepImgSel from './imgs/sleepy.png';
 //---------------- CSS ---------------------//
 import "./Journal.css"
-
-
-let imgsSelected = { sad: false, maso: false, happy: false };
-let moonSelected = { awake: false, med: false, sleep: false };
-
-const sleep = document.querySelector("#sleep");
-const medSleep = document.querySelector("#medSleep");
-const awake = document.querySelector("#awake");
-
-const happy = document.querySelector("#happy");
-const maso = document.querySelector("#maso");
-const sad = document.querySelector("#sad");
 
 function Journal() {
     return (
@@ -48,26 +37,29 @@ function Journal() {
             </div>
             <div className="casilla">
                 <label>Repas:</label>
-                <textarea name="comments" id="" cols="10" rows="5"
+                <textarea name="comments" id="" cols="5" rows="2"
                     placeholder="Collation"></textarea>
 
                 <label>Dîner:</label>
-                <textarea name="comments" id="" cols="10" rows="5"
+                <textarea name="comments" id="" cols="5" rows="2"
                     placeholder="Dîner"></textarea>
 
             </div>
             <label >Humeur:</label>
             <div className="checkbox_imagen">
-                <img id="sad" src={sadImg} alt="" />
-                <img id="maso" src={masoImg} alt="" />
-                <img id="happy" src={happyImg} alt="" />
+                <ImageChange original={sadImg} selected={sadImgSel} id="sad" />
+                <ImageChange original={masoImg} selected={masoImgSel} id="maso" />
+                <ImageChange original={happyImg} selected={happyImgSel} id="happy" />
             </div>
 
             <label>Sieste:</label>
             <div className="checkbox_imagen">
-                <img id="awake" className="moon" src={awakeImg} alt="" />
-                <img id="medSleep" className="moon" src={medAwakeImg} alt="" />
-                <img id="sleep" className="moon" src={sleepImg} alt="" />
+                <ImageChange className = "moon"
+                    original={awakeImg} selected={awakeImgSel} id="awake" />
+                <ImageChange className ="moon"
+                    original={medAwakeImg} selected={medAwakeImgSel} id="medSleep" />
+                <ImageChange className ="moon"
+                    original={sleepImg} selected={sleepImgSel} id="sleep" />
             </div>
             <div className="casilla">
                 <label>Commentaines:</label>
@@ -80,6 +72,9 @@ function Journal() {
     );
 }
 /** 
+ * <ImageChange original={awakeImg} selected={sadImgSel} />
+                <ImageChange original={medAwakeImg} selected={masoImgSel} />
+                <ImageChange original={sleepImg} selected={happyImgSel} />
 //Imgs
 happy.addEventListener("click", function () {
 

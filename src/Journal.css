@@ -1,8 +1,3 @@
-.moon {
-    width: 80px;
-    height: 85px;
-}
-
 .casilla {
     display: flex;
     flex-direction: column;
@@ -21,7 +16,11 @@
     padding: 15px;
     justify-content: space-between;
     cursor: pointer;
+}
 
+.checkbox_imagen>img {
+    width: 80px;
+    height: 65px;
 }
 
 .margin-top-15px {

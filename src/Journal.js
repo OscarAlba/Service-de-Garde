@@ -36,13 +36,13 @@ function Journal() {
                 </div>
             </div>
             <div className="casilla">
-                <label>Repas:</label>
-                <textarea name="comments" id="" cols="5" rows="2"
-                    placeholder="Collation"></textarea>
+                <label>Activités:</label>
+                <textarea name="comments" id="" cols="3" rows="2"
+                    placeholder="Activités"></textarea>
 
-                <label>Dîner:</label>
-                <textarea name="comments" id="" cols="5" rows="2"
-                    placeholder="Dîner"></textarea>
+                <label>Repas:</label>
+                <textarea name="comments" id="" cols="3" rows="2"
+                    placeholder="Repas"></textarea>
 
             </div>
             <label>Humeur:</label>

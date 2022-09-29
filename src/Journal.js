@@ -45,7 +45,11 @@ function Journal() {
                     placeholder="Repas"></textarea>
 
             </div>
-            <label>Humeur:</label>
+            <div className="casilla_checkbox">
+                <label>Humeur:</label>
+                <input type="text"  placeholder=" Ecri"/>
+            </div>
+           
             <div className="checkbox_imagen">
                 <ImageChange original={sadImg} selected={sadImgSel} id="sad" />
                 <ImageChange original={masoImg} selected={masoImgSel} id="maso" />
@@ -54,17 +58,17 @@ function Journal() {
 
             <label>Sieste:</label>
             <div className="checkbox_imagen">
-                <ImageChange className = "moon"
+                <ImageChange className="moon"
                     original={awakeImg} selected={awakeImgSel} id="awake" />
-                <ImageChange className ="moon"
+                <ImageChange className="moon"
                     original={medAwakeImg} selected={medAwakeImgSel} id="medSleep" />
-                <ImageChange className ="moon"
+                <ImageChange className="moon"
                     original={sleepImg} selected={sleepImgSel} id="sleep" />
             </div>
             <div className="casilla">
-                <label>Commentaines:</label>
+                <label>Commentaires:</label>
                 <textarea name="comments" id="" cols="10" rows="5"
-                    placeholder="Commentaines ecri"></textarea>
+                    placeholder="Commentaires ecri"></textarea>
             </div>
 
         </div>

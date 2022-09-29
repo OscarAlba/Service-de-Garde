@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 
-.checkbox_imagen>img {
+.checkbox_imagen > img {
     width: 80px;
     height: 65px;
 }
@@ -42,16 +42,11 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
-
-.Journal input {
-    background-color: var(--text-input-field);
-    border: none;
-    border-radius: 8px;
-    height: 30px;
-    font-size: var(--md);
-    padding: 6px;
-    margin-bottom: 12px;
+.ecri_text{
+    height: 6px;
 }
+
+
 
 @media (max-width: 640px) {
     .Journal {

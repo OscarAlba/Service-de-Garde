@@ -41,8 +41,9 @@ function Journal() {
                     placeholder="Activités"></textarea>
 
                 <label>Repas:</label>
-                <textarea name="comments" id="" cols="3" rows="2"
-                    placeholder="Repas"></textarea>
+                <input className="repas_text" type="text" placeholder=" Ecri" />
+                <input className="repas_text" type="text" placeholder=" Ecri" />
+                <input className="repas_text" type="text" placeholder=" Ecri" />
 
             </div>
             <div className="casilla_checkbox">

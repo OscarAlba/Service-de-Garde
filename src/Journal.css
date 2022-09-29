@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: row;
     font-size: var(--sm);
-    padding: 15px;
+    padding: 5px;
     justify-content: space-between;
     cursor: pointer;
 }
@@ -40,11 +40,19 @@
 .Journal textarea {
     resize: none;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .ecri_text{
     height: 10px;
     margin-left: 8px;
+    border-radius: 5px;
+}
+
+.repas_text{
+
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 20px;
 }
 
 

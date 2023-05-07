@@ -1,7 +1,8 @@
 import React from 'react';
 
-import guarderia from './imgs/guarderia.jpg'
+import guarderia from '../imgs/guarderia.jpg'
 import "./Encabezado.css";
+
 function Encabezado(){
     return(
         <div>

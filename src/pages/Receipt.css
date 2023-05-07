@@ -1,0 +1,55 @@
+section {
+    border: 5px solid;
+    padding: 10px;
+    background: white;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    place-content: space-between;
+}
+
+.blue-header {
+    display: flex;
+    flex-direction: row;
+    place-content: space-between;
+    background: rgb(51, 43, 207);
+    padding: 15px;
+}
+
+.space-between {
+    display: flex;
+    flex-direction: row;
+    place-content: space-between;
+}
+
+.padding-right {
+    padding-right: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+   
+}
+
+.flex div {
+    padding-right: 15px;
+}
+
+
+.space-between p {
+    color: white;
+}
+
+.width-40px{
+    width: 40px;
+}
+
+.width-180px{
+    width: 180px;
+}

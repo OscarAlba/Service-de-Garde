@@ -1,3 +1,29 @@
+.form-container {
+    display: grid;
+    grid-template-rows: auto 2fr auto;
+    background-color:#ffffff;
+    border-radius: 50px;
+    margin: 1% 20%;
+    place-items: center;
+  }
+  
+  @media (max-width: 640px) {
+   
+    .form-container {
+  
+      margin: -4%;
+     
+    }
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #6b76ff;
+    color: #1E1E1F;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+  
 .casilla {
     display: flex;
     flex-direction: column;
@@ -59,7 +85,8 @@
 
 @media (max-width: 640px) {
     .Journal {
-        margin: 5%;
+        margin-top: 4px !important;
+        margin: 14%;
         padding: 0;
     }
 }

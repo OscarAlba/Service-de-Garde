@@ -1,15 +1,19 @@
-
-import './App.css';
+import "./App";
 import React from "react";
-import { Encabezado } from "./Encabezado";
-import { Journal } from "./Journal";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Journal } from "./pages/Journal";
+import { Receipt } from "./pages/Receipt";
 
 function App() {
   return (
-    <div className="form-container">
-      <Encabezado />
-      <Journal />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route path="Journal" element={<Journal />} />
+          <Route path="Receipt" element={<Receipt />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

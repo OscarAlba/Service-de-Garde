@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Service-de-Garde/static/css/main.8f4a9dfb.css",
+    "main.js": "/Service-de-Garde/static/js/main.d5f0b87c.js",
+    "static/media/guarderia.jpg": "/Service-de-Garde/static/media/guarderia.20686266af6b7e81dcae.jpg",
+    "static/media/nosleep-moon.png": "/Service-de-Garde/static/media/nosleep-moon.251f021e9ef8674917fd.png",
+    "static/media/med.png": "/Service-de-Garde/static/media/med.427c471aacc0bd57edda.png",
+    "static/media/sleepy.png": "/Service-de-Garde/static/media/sleepy.fc278ec80ca20cfa381e.png",
+    "static/media/nosleep.png": "/Service-de-Garde/static/media/nosleep.f063a4cb365f5526b5ca.png",
+    "static/media/med-moon.png": "/Service-de-Garde/static/media/med-moon.e2690b47d4e5c4f577af.png",
+    "static/media/sleepy-moon.png": "/Service-de-Garde/static/media/sleepy-moon.782490a7f4a6236d3100.png",
+    "index.html": "/Service-de-Garde/index.html",
+    "main.8f4a9dfb.css.map": "/Service-de-Garde/static/css/main.8f4a9dfb.css.map",
+    "main.d5f0b87c.js.map": "/Service-de-Garde/static/js/main.d5f0b87c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f4a9dfb.css",
+    "static/js/main.d5f0b87c.js"
+  ]
+}
